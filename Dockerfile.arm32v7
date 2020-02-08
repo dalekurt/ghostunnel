@@ -8,7 +8,7 @@
 
 FROM arm32v7/golang:1.13.4-alpine as build
 
-MAINTAINER Cedric Staub "cs@squareup.com"
+LABEL Maintainer="dalekurt@lunarops.io"
 
 # Dependencies
 RUN apk add --no-cache --update gcc musl-dev libtool make git
